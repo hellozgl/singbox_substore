@@ -8,9 +8,9 @@
       "external_ui_download_detour": "🎯 全球直连",
       "secret": "",
       "default_mode": "Rule"
-    }
-    "cache_file": { "enabled": true, "path": "sing-box_cache.db", "store_fakeip": true },
-
+    },
+    "cache_file": { "enabled": true, "path": "sing-box_cache.db", "store_fakeip": true }
+  },
   "dns": {
     "servers": [
       {"tag": "local", "type": "udp", "server": "223.5.5.5"},
@@ -123,9 +123,6 @@
       "auto_redirect": true,
       "strict_route": true
     }
-  ],
-  "experimental": {
+  ]
 
-
-  }
 }

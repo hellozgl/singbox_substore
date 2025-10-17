@@ -76,6 +76,9 @@
   ],
 
   "route": {
+    "final": "🐠 漏网之鱼",
+    "auto_detect_interface": true,
+    "default_domain_resolver": {"server": "🧭 DNS_PUBLIC"},
     "rules": [
       {"action": "sniff", "sniffer": ["http", "tls", "quic", "dns"]},
       {"type": "logical", "mode": "or", "rules": [{"port": 53}, {"protocol": "dns"}], "action": "hijack-dns"},
@@ -103,7 +106,6 @@
       {"rule_set": "geoip-netflix", "outbound": "🎥 Netflix"},
       {"rule_set": "geoip-cn", "outbound": "🎯 全球直连"}
     ],
-
     "rule_set": [
       {"tag": "geosite-ai", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-ai-!cn.srs", "download_detour": "🎯 全球直连"},
       {"tag": "geosite-youtube", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/youtube.srs", "download_detour": "🎯 全球直连"},
@@ -129,9 +131,6 @@
       { "tag": "zglmanual", "type": "remote", "format": "source", "url": "https://ghproxy.cn/https://gist.githubusercontent.com/hellozgl/eec170a3685a41692f28ffc9b2e89a6d/raw/zglmanual.json", "download_detour": "DIRECT", "update_interval": "12h" },
       { "tag": "zgldirect", "type": "remote", "format": "source", "url": "https://ghproxy.cn/https://gist.githubusercontent.com/hellozgl/e2897e0222ab9754b0d398d9df6f53c5/raw/zgldirect.json", "download_detour": "DIRECT", "update_interval": "12h" },
       { "tag": "zglreject", "type": "remote", "format": "source", "url": "https://ghproxy.cn/https://gist.githubusercontent.com/hellozgl/61b17f3186afa2bf92786c5c07ec70b5/raw/zglreject.json", "download_detour": "DIRECT", "update_interval": "12h" }
-    ],
-    "final": "🐠 漏网之鱼",
-    "auto_detect_interface": true,
-    "default_domain_resolver": {"server": "🧭 DNS_PUBLIC"}
+    ]
   }
 }

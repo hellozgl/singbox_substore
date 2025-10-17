@@ -1,4 +1,16 @@
 {
+  "log": { "disabled": false, "level": "error", "timestamp": true },
+   "experimental": {
+      "clash_api": {
+      "external_controller": "0.0.0.0:9090",
+      "external_ui": "sing-box_ui",
+      "external_ui_download_url": "https://gh-proxy.com/https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip",
+      "external_ui_download_detour": "🎯 全球直连",
+      "secret": "",
+      "default_mode": "rule"
+    }
+    "cache_file": { "enabled": true, "path": "sing-box_cache.db", "store_fakeip": true },
+
   "dns": {
     "servers": [
       {"tag": "local", "type": "udp", "server": "223.5.5.5"},
@@ -113,23 +125,7 @@
     }
   ],
   "experimental": {
-    "cache_file": {
-      "enabled": true,
-      "path": "/etc/momo/run/cache.db",
-      "store_fakeip": true
-    },
-    "clash_api": {
-      "external_controller": "0.0.0.0:9095",
-      "external_ui": "/etc/momo/run/ui",
-      "external_ui_download_url": "https://gh-proxy.com/https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip",
-      "external_ui_download_detour": "🎯 全球直连",
-      "secret": "",
-      "default_mode": "rule"
-    }
-  },
-  "log": {
-    "disabled": false,
-    "level": "info",
-    "timestamp": true
+
+
   }
 }

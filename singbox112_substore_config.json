@@ -85,6 +85,7 @@
       {"ip_is_private": true, "outbound": "DIRECT"},
       {"clash_mode": "Direct", "outbound": "DIRECT"},
       {"clash_mode": "Global", "outbound": "GLOBAL"},
+      {"domain_suffix":[ "mesu.Apple.com", "gdmf.Apple.com", "ocsp.Apple.com", "Appldnld.Apple.com", "gg.Apple.com" ], "action": "reject"},
       {"rule_set": "zglemby", "outbound": "🚀 默认代理"},
       {"rule_set": "zglauto", "outbound": "🚀 默认代理"},
       {"rule_set": "zglmanual", "outbound": "🚀 默认代理"},

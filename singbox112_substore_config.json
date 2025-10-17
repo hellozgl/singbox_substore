@@ -16,9 +16,9 @@
   "dns": {
     "servers": [
       {"tag": "🧭 DNS_LOCAL", "type": "udp", "server": "223.5.5.5"},
-      {"tag": "🧭 DNS_PUBLIC_public", "type": "https", "server": "dns.alidns.com", "domain_resolver": "🧭 DNS_LOCAL"},
-      {"tag": "🧭 DNS_FOREIGN_foreign", "type": "https", "server": "8.8.8.8", "detour": "🚀 默认代理"},
-      {"tag": "🧭 DNS_FAKEIP_fakeip", "type": "fakeip", "inet4_range": "198.18.0.0/15", "inet6_range": "fc00::/18"}
+      {"tag": "🧭 DNS_PUBLIC", "type": "https", "server": "dns.alidns.com", "domain_resolver": "🧭 DNS_LOCAL"},
+      {"tag": "🧭 DNS_FOREIGN", "type": "https", "server": "8.8.8.8", "detour": "🚀 默认代理"},
+      {"tag": "🧭 DNS_FAKEIP", "type": "fakeip", "inet4_range": "198.18.0.0/15", "inet6_range": "fc00::/18"}
     ],
     "rules": [
       {"clash_mode": "direct", "server": "🧭 DNS_LOCAL"},
@@ -28,7 +28,7 @@
       {"rule_set": ["geosite-cn", "geosite-steamcn", "geosite-apple"], "server": "🧭 DNS_LOCAL"},
       {"query_type": ["A", "AAAA"], "server": "🧭 DNS_FAKEIP", "rewrite_ttl": 1}
     ],
-    "final": "foreign",
+    "final": "🧭 DNS_FOREIGN",
     "strategy": "ipv4_only",
     "independent_cache": true,
     "reverse_mapping": true

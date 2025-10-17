@@ -76,8 +76,8 @@
   ],
 
   "route": {
-    "final": "🐠 漏网之鱼",
     "auto_detect_interface": true,
+    "final": "🐠 漏网之鱼",
     "default_domain_resolver": {"server": "🧭 DNS_PUBLIC"},
     "rules": [
       {"action": "sniff", "sniffer": ["http", "tls", "quic", "dns"]},

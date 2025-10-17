@@ -21,8 +21,8 @@
       {"tag": "🧭 DNS_FAKEIP", "type": "fakeip", "inet4_range": "198.18.0.0/15", "inet6_range": "fc00::/18"}
     ],
     "rules": [
-      {"clash_mode": "direct", "server": "🧭 DNS_LOCAL"},
-      {"clash_mode": "global", "server": "🧭 DNS_FAKEIP"},
+      {"clash_mode": "Direct", "server": "🧭 DNS_LOCAL"},
+      {"clash_mode": "Global", "server": "🧭 DNS_FAKEIP"},
       {"query_type": "HTTPS", "action": "reject"},
       {"domain_suffix": ["services.googleapis.cn", "googleapis.cn", "xn--ngstr-lra8j.com"], "server": "🧭 DNS_FOREIGN"},
       {"rule_set": ["geosite-cn", "geosite-steamcn", "geosite-apple"], "server": "🧭 DNS_LOCAL"},
@@ -63,8 +63,8 @@
       {"action": "sniff", "sniffer": ["http", "tls", "quic", "dns"]},
       {"type": "logical", "mode": "or", "rules": [{"port": 53}, {"protocol": "dns"}], "action": "hijack-dns"},
       {"ip_is_private": true, "outbound": "🎯 全球直连"},
-      {"clash_mode": "direct", "outbound": "🎯 全球直连"},
-      {"clash_mode": "global", "outbound": "GLOBAL"},
+      {"clash_mode": "Direct", "outbound": "🎯 全球直连"},
+      {"clash_mode": "Global", "outbound": "GLOBAL"},
       {"rule_set": "geosite-ai", "outbound": "🧠 AI"},
       {"rule_set": "geosite-youtube", "outbound": "📹 YouTube"},
       {"rule_set": "geosite-google", "outbound": "🍀 Google"},

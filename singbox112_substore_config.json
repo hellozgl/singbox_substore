@@ -33,6 +33,21 @@
     "independent_cache": true,
     "reverse_mapping": true
   },
+
+  "inbounds": [
+    {
+      "tag": "🚇 TUN-IN",
+      "type": "tun",
+      "address": [
+        "172.19.0.1/30",
+        "fdfe:dcba:9876::1/126"
+      ],
+      "mtu": 9000,
+      "auto_route": true,
+      "auto_redirect": true,
+      "strict_route": true
+    }
+  ],
   "outbounds": [
     {"tag": "🚀 默认代理", "type": "selector", "outbounds": ["🇭🇰 香港手动", "🇯🇵 日本手动", "🇸🇬 狮城手动", "🇺🇲 美国手动", "🐸 手动选择", "♻️ 自动选择"]},
     {"tag": "🧠 AI", "type": "selector", "outbounds": ["🇯🇵 日本手动", "🇸🇬 狮城手动", "🇺🇲 美国手动"]},
@@ -112,19 +127,6 @@
     "auto_detect_interface": true,
     "default_domain_resolver": {"server": "🧭 DNS_PUBLIC"}
   },
-  "inbounds": [
-    {
-      "tag": "tun-in",
-      "type": "tun",
-      "address": [
-        "172.19.0.1/30",
-        "fdfe:dcba:9876::1/126"
-      ],
-      "mtu": 9000,
-      "auto_route": true,
-      "auto_redirect": true,
-      "strict_route": true
-    }
-  ]
+
 
 }

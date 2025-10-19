@@ -90,7 +90,7 @@
       {"domain_suffix":["mesu.Apple.com", "gdmf.Apple.com", "ocsp.Apple.com", "Appldnld.Apple.com", "gg.Apple.com" ], "action": "reject"},
       {"domain_suffix":["gmail.com", "hotmail.com", "outlook.com", "smartmailcloud.com", "api.amplitude.com", "outlook.office365.com" ], "outbound": "🌐 GOOGLE"},
       {"domain": [ "clash.razord.top", "yacd.metacubex.one", "yacd.haishan.me", "d.metacubex.one", "10.1.19.222", "10.1.19.1", "5.5.5.5" ], "outbound": "DIRECT"},
-      {"rule_set": "zglemby", "outbound": "🚀 默认代理"},
+      {"rule_set": "zglemby", "outbound": "🌟 EMBY"},
       {"rule_set": "zglauto", "outbound": "🚀 默认代理"},
       {"rule_set": "zglmanual", "outbound": "📌 手动切换"},
       {"rule_set": "zgldirect", "outbound": "DIRECT"},

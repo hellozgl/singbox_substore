@@ -83,6 +83,7 @@
     "final": "🐟 漏网之鱼",
     "default_domain_resolver": {"server": "🧭 DNS_PUBLIC"},
     "default_mark": 666,
+    "default_mark": 666,
     "rules": [
       {"action": "sniff", "sniffer": ["http", "tls", "quic", "dns"]},
       {"type": "logical", "mode": "or", "rules": [{"port": 53}, {"protocol": "dns"}], "action": "hijack-dns"},

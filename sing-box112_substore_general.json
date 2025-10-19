@@ -70,7 +70,7 @@
     {"tag": "🇸🇬 狮城节点", "type": "selector", "outbounds": []},
     {"tag": "🇺🇸 美国节点", "type": "selector", "outbounds": []},
     {"tag": "📌 手动切换", "type": "selector", "outbounds": []},
-    {"tag": "♻️ 自动选择", "type": "urltest", "outbounds": []},
+    {"tag": "♻️ 自动选择", "type": "urltest", "outbounds": [], "url": "http://www.gstatic.com/generate_204", "interval": "360m", "idle_timeout": "720m", "tolerance": 50},
     {"tag": "🍃 延迟辅助", "type": "urltest", "outbounds": ["🚀 默认代理", "DIRECT"]},
     {"tag": "GLOBAL", "type": "selector", "outbounds": ["🚀 默认代理", "🤖 AI", "📹 YouTube", "🍀 Google", "👨‍💻 Github", "📲 Telegram", "🎵 TikTok", "🎥 Netflix", "💶 PayPal", "🎮 Steam", "🪟 Microsoft", "🐬 OneDrive", "🍏 Apple", "🐠 漏网之鱼", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇯🇵 日本节点", "🇸🇬 狮城节点", "🇺🇸 美国节点", "📌 手动切换", "♻️ 自动选择", "🍃 延迟辅助", "DIRECT"]},
     {"tag": "DIRECT", "type": "direct"}

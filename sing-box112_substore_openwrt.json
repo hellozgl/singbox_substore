@@ -73,7 +73,7 @@
   ],
 
   "route": {
-    "auto_detect_interface": false,
+    "auto_detect_interface": true,
     "final": "🐟 漏网之鱼",
     "default_domain_resolver": {"server": "🧭 DNS_PUBLIC"},
     "default_mark": 666,

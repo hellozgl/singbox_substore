@@ -139,11 +139,11 @@
       {"tag": "geoip-telegram", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/telegram.srs", "download_detour": "DIRECT"},
       {"tag": "geoip-netflix", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/netflix.srs", "download_detour": "DIRECT"},
       {"tag": "geoip-cn", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://github.com/qljsyph/ruleset-icon/raw/refs/heads/main/sing-box/geoip/China-ASN-combined-ip.srs", "download_detour": "DIRECT"},
-      {"tag": "zglemby", "type": "remote", "format": "source", "url": "https://ghproxy.cn/https://gist.githubusercontent.com/hellozgl/5126446637ea7559af8d40b5c9d472ff/raw/zglemby.json", "download_detour": "DIRECT", "update_interval": "12h" },
-      {"tag": "zglauto", "type": "remote", "format": "source", "url": "https://ghproxy.cn/https://gist.githubusercontent.com/hellozgl/5eebc4d8cfd010511873b92fa7152864/raw/zglauto.json", "download_detour": "DIRECT", "update_interval": "12h" },
-      {"tag": "zglmanual", "type": "remote", "format": "source", "url": "https://ghproxy.cn/https://gist.githubusercontent.com/hellozgl/eec170a3685a41692f28ffc9b2e89a6d/raw/zglmanual.json", "download_detour": "DIRECT", "update_interval": "12h" },
-      {"tag": "zgldirect", "type": "remote", "format": "source", "url": "https://ghproxy.cn/https://gist.githubusercontent.com/hellozgl/e2897e0222ab9754b0d398d9df6f53c5/raw/zgldirect.json", "download_detour": "DIRECT", "update_interval": "12h" },
-      {"tag": "zglreject", "type": "remote", "format": "source", "url": "https://ghproxy.cn/https://gist.githubusercontent.com/hellozgl/61b17f3186afa2bf92786c5c07ec70b5/raw/zglreject.json", "download_detour": "DIRECT", "update_interval": "12h" }
+      {"tag": "zglemby", "type": "remote", "format": "source", "url": "https://gh-proxy.com/https://gist.githubusercontent.com/hellozgl/5126446637ea7559af8d40b5c9d472ff/raw/zglemby.json", "download_detour": "DIRECT", "update_interval": "12h" },
+      {"tag": "zglauto", "type": "remote", "format": "source", "url": "https://gh-proxy.com/https://gist.githubusercontent.com/hellozgl/5eebc4d8cfd010511873b92fa7152864/raw/zglauto.json", "download_detour": "DIRECT", "update_interval": "12h" },
+      {"tag": "zglmanual", "type": "remote", "format": "source", "url": "https://gh-proxy.com/https://gist.githubusercontent.com/hellozgl/eec170a3685a41692f28ffc9b2e89a6d/raw/zglmanual.json", "download_detour": "DIRECT", "update_interval": "12h" },
+      {"tag": "zgldirect", "type": "remote", "format": "source", "url": "https://gh-proxy.com/https://gist.githubusercontent.com/hellozgl/e2897e0222ab9754b0d398d9df6f53c5/raw/zgldirect.json", "download_detour": "DIRECT", "update_interval": "12h" },
+      {"tag": "zglreject", "type": "remote", "format": "source", "url": "https://gh-proxy.com/https://gist.githubusercontent.com/hellozgl/61b17f3186afa2bf92786c5c07ec70b5/raw/zglreject.json", "download_detour": "DIRECT", "update_interval": "12h" }
     ]
   }
 }

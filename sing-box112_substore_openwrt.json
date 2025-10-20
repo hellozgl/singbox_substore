@@ -57,7 +57,7 @@
     {"tag": "💶 PAYPAL", "type": "selector", "outbounds": ["🚩 默认代理", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇯🇵 日本节点", "🇸🇬 狮城节点", "🇺🇸 美国节点"]},
     {"tag": "🎮 STEAM", "type": "selector", "outbounds": ["🚩 默认代理", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇯🇵 日本节点", "🇸🇬 狮城节点", "🇺🇸 美国节点"]},
     {"tag": "🖨️ MICROSOFT", "type": "selector", "outbounds": ["🚩 默认代理", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇯🇵 日本节点", "🇸🇬 狮城节点", "🇺🇸 美国节点"]},
-    {"tag": "🐬 ONEDRIVE", "type": "selector", "outbounds": ["🚩 默认代理", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇯🇵 日本节点", "🇸🇬 狮城节点", "🇺🇸 美国节点"]},
+    {"tag": "📂 ONEDRIVE", "type": "selector", "outbounds": ["🚩 默认代理", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇯🇵 日本节点", "🇸🇬 狮城节点", "🇺🇸 美国节点"]},
     {"tag": "🍎 APPLE", "type": "selector", "outbounds": ["DIRECT", "🚩 默认代理", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇯🇵 日本节点", "🇸🇬 狮城节点", "🇺🇸 美国节点"], "default": "DIRECT"},
     {"tag": "🐟 漏网之鱼", "type": "selector", "outbounds": ["🚩 默认代理", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇯🇵 日本节点", "🇸🇬 狮城节点", "🇺🇸 美国节点", "DIRECT"]},
     {"tag": "🇭🇰 香港节点", "type": "selector", "outbounds": []},
@@ -68,7 +68,7 @@
     {"tag": "🕸 其他节点", "type": "selector", "outbounds": []},
     {"tag": "📌 手动选择", "type": "selector", "outbounds": []},
     {"tag": "♻️ 自动切换", "type": "urltest", "outbounds": [], "url": "http://www.gstatic.com/generate_204", "interval": "360m", "idle_timeout": "720m", "tolerance": 50},
-    {"tag": "GLOBAL", "type": "selector", "outbounds": ["🚩 默认代理", "🤖 AI", "🌟 EMBY", "✉️ EMAIL", "📹 YOUTUBE", "🌐 GOOGLE", "👨‍💻 GITHUB", "💬 TELEGRAM", "🎵 TIKTOK", "🎥 NETFLIX", "💶 PAYPAL", "🎮 STEAM", "🖨️ MICROSOFT", "🐬 ONEDRIVE", "🍎 APPLE", "🐟 漏网之鱼", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇯🇵 日本节点", "🇸🇬 狮城节点", "🇺🇸 美国节点", "🕸 其他节点", "📌 手动选择", "♻️ 自动切换", "DIRECT"]},
+    {"tag": "GLOBAL", "type": "selector", "outbounds": ["🚩 默认代理", "🤖 AI", "🌟 EMBY", "✉️ EMAIL", "📹 YOUTUBE", "🌐 GOOGLE", "👨‍💻 GITHUB", "💬 TELEGRAM", "🎵 TIKTOK", "🎥 NETFLIX", "💶 PAYPAL", "🎮 STEAM", "🖨️ MICROSOFT", "📂 ONEDRIVE", "🍎 APPLE", "🐟 漏网之鱼", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇯🇵 日本节点", "🇸🇬 狮城节点", "🇺🇸 美国节点", "🕸 其他节点", "📌 手动选择", "♻️ 自动切换", "DIRECT"]},
     {"tag": "DIRECT", "type": "direct"}
   ],
 
@@ -95,7 +95,7 @@
       {"rule_set": "geosite-youtube", "outbound": "📹 YOUTUBE"},
       {"rule_set": "geosite-google", "outbound": "🌐 GOOGLE"},
       {"rule_set": "geosite-github", "outbound": "👨‍💻 GITHUB"},
-      {"rule_set": "geosite-onedrive", "outbound": "🐬 ONEDRIVE"},
+      {"rule_set": "geosite-onedrive", "outbound": "📂 ONEDRIVE"},
       {"rule_set": "geosite-microsoft", "outbound": "🖨️ MICROSOFT"},
       {"rule_set": "geosite-apple", "outbound": "🍎 APPLE"},
       {"rule_set": "geosite-telegram", "outbound": "💬 TELEGRAM"},

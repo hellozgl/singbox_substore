@@ -111,7 +111,6 @@
       {"rule_set": "geosite-steam", "outbound": "🎮 STEAM"},
       {"rule_set": "geosite-!cn", "outbound": "🚩 默认代理"},
       {"rule_set": "geosite-cn", "outbound": "DIRECT"},
-      {"action": "resolve"},
       {"rule_set": "geoip-google", "outbound": "🌐 GOOGLE"},
       {"rule_set": "geoip-apple", "outbound": "🍎 APPLE"},
       {"rule_set": "geoip-telegram", "outbound": "💬 TELEGRAM"},

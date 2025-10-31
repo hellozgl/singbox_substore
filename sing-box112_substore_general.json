@@ -10,7 +10,7 @@
       "secret": "",
       "default_mode": "Rule"
     },
-    "cache_file": { "enabled": true, "path": "sing-box_cache.db", "store_fakeip": true }
+    "cache_file": { "enabled": true, "path": "sing-box_cache.db", "store_fakeip": false }
   },
 
   "dns": {

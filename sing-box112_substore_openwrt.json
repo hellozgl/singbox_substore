@@ -10,23 +10,21 @@
       "secret": "",
       "default_mode": "Rule"
     },
-    "cache_file": { "enabled": true, "path": "sing-box_cache.db", "store_fakeip": true }
+    "cache_file": { "enabled": true, "path": "sing-box_cache.db", "store_fakeip": false }
   },
 
   "dns": {
     "servers": [
       {"tag": "🧭 DNS_LOCAL", "type": "udp", "server": "223.5.5.5"},
       {"tag": "🧭 DNS_PUBLIC", "type": "https", "server": "dns.alidns.com", "domain_resolver": "🧭 DNS_LOCAL"},
-      {"tag": "🧭 DNS_PROXY", "type": "https", "server": "8.8.8.8", "detour": "🚩 默认代理"},
-      {"tag": "🧭 DNS_FAKEIP", "type": "fakeip", "inet4_range": "198.18.0.0/15", "inet6_range": "fc00::/18"}
+      {"tag": "🧭 DNS_PROXY", "type": "https", "server": "8.8.8.8", "detour": "🚩 默认代理"}
     ],
     "rules": [
       {"clash_mode": "Direct", "server": "🧭 DNS_LOCAL"},
       {"clash_mode": "Global", "server": "🧭 DNS_FAKEIP"},
       {"query_type": "HTTPS", "action": "reject"},
       {"domain_suffix": ["services.googleapis.cn", "googleapis.cn", "xn--ngstr-lra8j.com"], "server": "🧭 DNS_PROXY"},
-      {"rule_set": ["geosite-cn", "geosite-steamcn", "geosite-apple"], "server": "🧭 DNS_LOCAL"},
-      {"query_type": ["A", "AAAA"], "server": "🧭 DNS_FAKEIP", "rewrite_ttl": 1}
+      {"rule_set": ["geosite-cn", "geosite-steamcn", "geosite-apple"], "server": "🧭 DNS_LOCAL"}
     ],
     "final": "🧭 DNS_PROXY",
     "strategy": "ipv4_only",

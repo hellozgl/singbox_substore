@@ -22,7 +22,6 @@
     "rules": [
       {"clash_mode": "Direct", "server": "🧭 DNS_LOCAL"},
       {"clash_mode": "Global", "server": "🧭 DNS_PROXY"},
-      {"query_type": "HTTPS", "action": "reject"},
       {"domain_suffix": ["services.googleapis.cn", "googleapis.cn", "xn--ngstr-lra8j.com"], "server": "🧭 DNS_PROXY"},
       {"rule_set": ["geosite-cn", "geosite-steamcn", "geosite-apple"], "server": "🧭 DNS_LOCAL"}
     ],

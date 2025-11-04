@@ -83,8 +83,8 @@
 
   "route": {
     "auto_detect_interface": true,
-    "final": "🐟 漏网之鱼",
     "default_domain_resolver": {"server": "🧭 DNS_PUBLIC"},
+    "final": "🐟 漏网之鱼",
     "rules": [
       {"action": "sniff", "sniffer": ["http", "tls", "quic", "dns"]},
       {"type": "logical", "mode": "or", "rules": [{"port": 53}, {"protocol": "dns"}], "action": "hijack-dns"},

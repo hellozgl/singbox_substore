@@ -35,9 +35,8 @@
     {
       "tag": "🚇 TUN-IN",
       "type": "tun",
-      "address": [
-        "172.19.0.1/30"
-      ],
+      "address": ["172.18.0.1/30", "fdfe:dcba:9876::1/126"],
+      "route_exclude_address": ["192.168.0.0/16", "10.0.0.0/8", "172.16.0.0/12", "fc00::/7"],
       "mtu": 9000,
       "auto_route": true,
       "auto_redirect": false,
@@ -48,7 +47,7 @@
       "type": "mixed",
       "listen": "127.0.0.1",
       "listen_port": 2080,
-      "sniff": true
+      "users": []
     }
   ],
 

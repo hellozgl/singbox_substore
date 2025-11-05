@@ -50,7 +50,7 @@
       "tag": "🚆 MIXED-IN",
       "type": "mixed",
       "listen": "127.0.0.1",
-      "listen_port": 2080,
+      "listen_port": 7890,
       "users": []
     }
   ],

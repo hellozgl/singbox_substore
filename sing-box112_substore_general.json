@@ -102,7 +102,7 @@
       {"rule_set": "zglreject", "action": "reject"},
       {"rule_set": "geosite-ai", "outbound": "🤖 AI"},
       {"rule_set": "geosite-youtube", "outbound": "📹 YOUTUBE"},
-      { "rule_set": ["geoip-facebook", "geosite-facebook"], "outbound": "📟 FACEBOOK" },
+      { "rule_set": ["geoip-facebook", "geosite-facebook"], "outbound": "📟 META" },
       {"rule_set": "geosite-google", "outbound": "🌐 GOOGLE"},
       {"rule_set": "geosite-github", "outbound": "👨‍💻 GITHUB"},
       {"rule_set": "geosite-onedrive", "outbound": "📂 ONEDRIVE"},

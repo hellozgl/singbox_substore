@@ -149,7 +149,7 @@
       {"tag": "zglemby", "type": "remote", "format": "source", "url": "https://gist.githubusercontent.com/hellozgl/5126446637ea7559af8d40b5c9d472ff/raw/zglemby.json", "download_detour": "♻️ 自动切换", "update_interval": "12h"},
       {"tag": "zglauto", "type": "remote", "format": "source", "url": "https://gist.githubusercontent.com/hellozgl/5eebc4d8cfd010511873b92fa7152864/raw/zglauto.json", "download_detour": "♻️ 自动切换", "update_interval": "12h"},
       {"tag": "zglmanual", "type": "remote", "format": "source", "url": "https://gist.githubusercontent.com/hellozgl/eec170a3685a41692f28ffc9b2e89a6d/raw/zglmanual.json", "download_detour": "♻️ 自动切换", "update_interval": "12h"},
-      {"tag": "zgl♻️ 自动切换", "type": "remote", "format": "source", "url": "https://gist.githubusercontent.com/hellozgl/e2897e0222ab9754b0d398d9df6f53c5/raw/zgl♻️ 自动切换.json", "download_detour": "♻️ 自动切换", "update_interval": "12h"},
+      {"tag": "zgldirect", "type": "remote", "format": "source", "url": "https://gist.githubusercontent.com/hellozgl/e2897e0222ab9754b0d398d9df6f53c5/raw/zgldirect.json", "download_detour": "♻️ 自动切换", "update_interval": "12h"},
       {"tag": "zglreject", "type": "remote", "format": "source", "url": "https://gist.githubusercontent.com/hellozgl/61b17f3186afa2bf92786c5c07ec70b5/raw/zglreject.json", "download_detour": "♻️ 自动切换", "update_interval": "12h"}
     ]
   }

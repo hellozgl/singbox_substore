@@ -78,7 +78,7 @@
     {"tag": "🕸 其他节点", "type": "selector", "outbounds": []},
     {"tag": "📌 手动选择", "type": "selector", "outbounds": []},
     {"tag": "♻️ 自动切换", "type": "urltest", "outbounds": [], "url": "http://www.gstatic.com/generate_204", "interval": "30m", "idle_timeout": "720m", "tolerance": 50},
-    {"tag": "GLOBAL", "type": "selector", "outbounds": ["🚩 默认代理", "🤖 AI", "🌟 EMBY", "✉️ EMAIL", "📹 YOUTUBE", "🌐 GOOGLE", "👨‍💻 GITHUB", "💬 TELEGRAM", "🎵 TIKTOK", "🎥 NETFLIX", "💶 PAYPAL", "🎮 STEAM", "🖨️ MICROSOFT", "📂 ONEDRIVE", "🍎 APPLE", "🐟 漏网之鱼", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇯🇵 日本节点", "🇸🇬 狮城节点", "🇺🇸 美国节点", "🕸 其他节点", "📌 手动选择", "♻️ 自动切换", "DIRECT"]},
+    {"tag": "GLOBAL", "type": "selector", "outbounds": ["🚩 默认代理", "🤖 AI", "🌟 EMBY", "📟 META", "✉️ EMAIL", "📹 YOUTUBE", "🌐 GOOGLE", "👨‍💻 GITHUB", "💬 TELEGRAM", "🎵 TIKTOK", "🎥 NETFLIX", "💶 PAYPAL", "🎮 STEAM", "🖨️ MICROSOFT", "📂 ONEDRIVE", "🍎 APPLE", "🐟 漏网之鱼", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇯🇵 日本节点", "🇸🇬 狮城节点", "🇺🇸 美国节点", "🕸 其他节点", "📌 手动选择", "♻️ 自动切换", "DIRECT"]},
     {"tag": "DIRECT", "type": "direct"}
   ],
 

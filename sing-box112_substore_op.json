@@ -17,7 +17,7 @@
     "servers": [
       {"tag": "🧭 DNS_LOCAL", "type": "udp", "server": "223.5.5.5"},
       {"tag": "🧭 DNS_PUBLIC", "type": "https", "server": "dns.alidns.com", "domain_resolver": "🧭 DNS_LOCAL"},
-      {"tag": "🧭 DNS_PROXY", "type": "https", "server": "8.8.8.8", "detour": "🚩 默认代理"},
+      {"tag": "🧭 DNS_PROXY", "type": "https", "server": "8.8.8.8", "detour": "♻️ 自动切换"},
       {"tag": "😈 DNS_FAKEIP", "type": "fakeip", "inet4_range": "198.18.0.0/15", "inet6_range": "fc00::/18"}
     ],
     "rules": [

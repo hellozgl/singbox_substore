@@ -125,6 +125,8 @@
       {"rule_set": "geoip-cn", "outbound": "DIRECT"}
     ],
     "rule_set": [
+      { "wifi_ssid": "hoohoomimi_5G", "outbound": "DIRECT" },
+      { "wifi_ssid": "hoohoomimi", "outbound": "DIRECT" },
       {"tag": "geosite-ai", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-ai-!cn.srs", "download_detour": "♻️ 自动切换", "update_interval": "120h"},
       {"tag": "geosite-facebook", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/facebook.srs", "download_detour": "♻️ 自动切换", "update_interval": "120h"},
       {"tag": "geosite-meta", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/meta.srs", "download_detour": "♻️ 自动切换", "update_interval": "120h"},

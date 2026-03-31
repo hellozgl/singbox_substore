@@ -93,6 +93,8 @@
       {"ip_is_private": true, "outbound": "DIRECT"},
       {"clash_mode": "Direct", "outbound": "DIRECT"},
       {"clash_mode": "Global", "outbound": "GLOBAL"},
+      {"wifi_ssid": "hoohoomimi_5G", "outbound": "DIRECT" },
+      {"wifi_ssid": "hoohoomimi", "outbound": "DIRECT" },
       {"domain_suffix":["mesu.Apple.com", "gdmf.Apple.com", "ocsp.Apple.com", "Appldnld.Apple.com", "gg.Apple.com"], "action": "reject"},
       {"domain_suffix":["smartmailcloud.com", "api.amplitude.com"], "outbound": "✉️ EMAIL"},
       {"domain": [ "clash.razord.top", "yacd.metacubex.one", "yacd.haishan.me", "d.metacubex.one", "10.1.19.222", "10.1.19.1", "5.5.5.5"], "outbound": "DIRECT"},
@@ -125,8 +127,6 @@
       {"rule_set": "geoip-cn", "outbound": "DIRECT"}
     ],
     "rule_set": [
-      {"wifi_ssid": "hoohoomimi_5G", "outbound": "DIRECT" },
-      {"wifi_ssid": "hoohoomimi", "outbound": "DIRECT" },
       {"tag": "geosite-ai", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-ai-!cn.srs", "download_detour": "♻️ 自动切换", "update_interval": "120h"},
       {"tag": "geosite-facebook", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/facebook.srs", "download_detour": "♻️ 自动切换", "update_interval": "120h"},
       {"tag": "geosite-meta", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/meta.srs", "download_detour": "♻️ 自动切换", "update_interval": "120h"},

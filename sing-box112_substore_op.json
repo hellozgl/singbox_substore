@@ -21,6 +21,8 @@
       {"tag": "😈 DNS_FAKEIP", "type": "fakeip", "inet4_range": "198.18.0.0/15"}
     ],
     "rules": [
+      {"query_type": ["PTR","SOA","SVCB","HTTPS","NAPTR"], "action": "reject"},
+      {"domain_suffix": [".local",".lan",".arpa",".padavan",".internal",".home"], "action": "reject"},
       {"clash_mode": "Direct", "server": "🧭 DNS_LOCAL"},
       {"clash_mode": "Global", "server": "🧭 DNS_PROXY"},
       {"query_type": ["A", "AAAA"], "server": "😈 DNS_FAKEIP", "rewrite_ttl": 1},

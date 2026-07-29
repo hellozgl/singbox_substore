@@ -23,6 +23,7 @@
     "rules": [
       {"query_type": ["PTR","SOA","SVCB","HTTPS","NAPTR"], "action": "reject"},
       {"domain_suffix": [".local",".lan",".arpa",".padavan",".internal",".home"], "action": "reject"},
+      {"domain_suffix": ["601118.xyz"], "server": "🧭 DNS_LOCAL"},
       {"clash_mode": "Direct", "server": "🧭 DNS_LOCAL"},
       {"clash_mode": "Global", "server": "🧭 DNS_PROXY"},
       {"domain_suffix": ["services.googleapis.cn", "googleapis.cn", "xn--ngstr-lra8j.com"], "server": "🧭 DNS_PROXY"},
@@ -94,6 +95,7 @@
       {"action": "sniff", "sniffer": ["http", "tls", "quic", "dns"]},
       {"type": "logical", "mode": "or", "rules": [{"port": 53}, {"protocol": "dns"}], "action": "hijack-dns"},
       {"ip_is_private": true, "outbound": "DIRECT"},
+      {"domain_suffix": ["601118.xyz"], "outbound": "DIRECT"},
       {"clash_mode": "Direct", "outbound": "DIRECT"},
       {"clash_mode": "Global", "outbound": "GLOBAL"},
       {"wifi_ssid": "hoohoomimi_5G", "outbound": "DIRECT"},

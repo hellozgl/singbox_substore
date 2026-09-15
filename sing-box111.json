@@ -81,6 +81,7 @@
       { "domain": [ "clash.razord.top", "yacd.metacubex.one", "yacd.haishan.me", "d.metacubex.one" ], "outbound": "DIRECT" },
       { "domain_suffix":[ "gmail.com", "hotmail.com", "outlook.com", "smartmailcloud.com", "api.amplitude.com", "outlook.office365.com" ], "outbound": "✉️ EMAIL" },
       { "rule_set": "geosite-private", "outbound": "DIRECT"},
+      { "rule_set": "geoip-private", "outbound": "DIRECT"},
       { "rule_set": "zglemby", "outbound": "🌟 EMBY" },
       { "rule_set": "zglauto", "outbound": "🎯 节点选择" },
       { "rule_set": "zglmanual", "outbound": "📌 手动切换" },

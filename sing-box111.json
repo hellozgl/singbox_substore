@@ -77,7 +77,7 @@
       { "rule_set": "geosite-category-ads-all", "action": "reject", "method": "drop" },
       { "wifi_ssid": "hoohoomimi_5G", "outbound": "DIRECT" },
       { "wifi_ssid": "hoohoomimi", "outbound": "DIRECT" },
-      { "domain_suffix":[ "mesu.Apple.com", "gdmf.Apple.com", "ocsp.Apple.com", "Appldnld.Apple.com", "gg.Apple.com" ], "action": "reject", "method": "drop" },
+      { "domain_suffix":[ "mesu.apple.com", "gdmf.apple.com", "ocsp.apple.com", "appldnld.apple.com", "gg.apple.com" ], "action": "reject", "method": "drop" },
       { "domain": [ "clash.razord.top", "yacd.metacubex.one", "yacd.haishan.me", "d.metacubex.one", "10.1.19.222", "10.1.19.1", "5.5.5.5" ], "outbound": "DIRECT" },
       { "domain_suffix":[ "gmail.com", "hotmail.com", "outlook.com", "smartmailcloud.com", "api.amplitude.com", "outlook.office365.com" ], "outbound": "✉️ EMAIL" },
       { "rule_set": "geosite-private", "outbound": "DIRECT"},

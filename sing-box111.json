@@ -83,13 +83,10 @@
     { "tag": "🇺🇸 美国节点", "type": "selector", "outbounds": [] },
     { "tag": "🕸 其他节点", "type": "selector", "outbounds": [] },
     { "tag": "🐌 低倍节点", "type": "selector", "outbounds": [] },
-    { "tag": "📌 手动选择", "type": "selector", "outbounds": ["🐽 proxy1", "🐽 proxy2", "🐽 proxy3_ipv6", "DIRECT"] },
+    { "tag": "📌 手动选择", "type": "selector", "outbounds": ["DIRECT"] },
     { "tag": "♻️ 自动切换", "type": "urltest", "outbounds": [], "url": "http://www.gstatic.com/generate_204", "interval": "30m", "idle_timeout": "720m", "tolerance": 50 },
     { "tag": "GLOBAL", "type": "selector", "outbounds": ["🚩 默认代理", "📌 手动选择", "♻️ 自动切换", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇯🇵 日本节点", "🇸🇬 狮城节点", "🇺🇸 美国节点", "🕸 其他节点", "DIRECT"] },
     { "tag": "DIRECT", "type": "direct" },
-    { "tag": "🐽 proxy1", "type": "vless", "server": "pjck.34gpg.shop", "server_port": 443, "uuid": "fe2e8df9-e5dc-4984-a028-9b68c6cfb006", "tls": { "enabled": true, "server_name": "pjck.34gpg.shop", "insecure": false }, "udp_fragment": true, "transport": { "type": "ws", "headers": {}, "path": "/fe2e8df9-e5dc-4984-a028-9b68c6cfb006" }, "tcp_fast_open": true },
-    { "tag": "🐽 proxy2", "type": "vless", "server": "joqt.0owap.xyz", "server_port": 443, "uuid": "987cf14b-e66b-4041-9e4b-dd486478b8fb", "tls": { "enabled": true, "server_name": "joqt.0owap.xyz", "insecure": false }, "udp_fragment": true, "transport": { "type": "ws", "headers": {}, "path": "/987cf14b-e66b-4041-9e4b-dd486478b8fb" }, "tcp_fast_open": true },
-    { "tag": "🐽 proxy3_ipv6", "type": "vmess", "server": "[2400:8a20:112:1::2ca]", "server_port": 56144, "uuid": "b3bd9aff-7b8c-4607-f7fb-e155aec06417", "transport": { "path": "/wap", "type": "ws", "max_early_data": 2048, "early_data_header_name": "Sec-WebSocket-Protocol" }, "packet_encoding": "xudp", "security": "auto" }
   ],
 
   "route": {

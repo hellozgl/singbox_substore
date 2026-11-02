@@ -109,7 +109,6 @@
       {"rule_set": "zgldirect", "outbound": "DIRECT"},
       {"rule_set": "zglreject", "action": "reject"},
       {"rule_set": ["porn", "nsfw"], "action": "reject"},
-      {"rule_set": "porn", "action": "reject"},
       {"rule_set": "geosite-ai", "outbound": "🤖 AI"},
       {"rule_set": "geosite-youtube", "outbound": "📹 YOUTUBE"},
       {"rule_set": ["geoip-facebook", "geosite-facebook", "geosite-instagram", "geosite-meta"], "outbound": "📟 META" },

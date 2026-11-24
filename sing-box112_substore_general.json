@@ -23,7 +23,7 @@
     "rules": [
       {"query_type": ["PTR","SOA","SVCB","HTTPS","NAPTR"], "action": "reject"},
       {"domain_suffix": [".local",".lan",".arpa",".padavan",".internal",".home"], "action": "reject"},
-      {"domain_suffix": ["601118.xyz"], "server": "🧭 DNS_LOCAL"},
+      {"domain_suffix": ["601118.xyz", "139.162.80.238", "999631.xyz"], "server": "🧭 DNS_LOCAL"},
       {"clash_mode": "Direct", "server": "🧭 DNS_LOCAL"},
       {"clash_mode": "Global", "server": "🧭 DNS_PROXY"},
       {"domain_suffix": ["services.googleapis.cn", "googleapis.cn", "xn--ngstr-lra8j.com"], "server": "🧭 DNS_PROXY"},

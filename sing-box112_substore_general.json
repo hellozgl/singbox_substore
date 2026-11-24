@@ -95,7 +95,7 @@
       {"action": "sniff", "sniffer": ["http", "tls", "quic", "dns"]},
       {"type": "logical", "mode": "or", "rules": [{"port": 53}, {"protocol": "dns"}], "action": "hijack-dns"},
       {"ip_is_private": true, "outbound": "DIRECT"},
-      {"domain_suffix": ["601118.xyz"], "outbound": "DIRECT"},
+      {"domain_suffix": ["601118.xyz", "139.162.80.238", "999631.xyz"], "outbound": "DIRECT"},
       {"clash_mode": "Direct", "outbound": "DIRECT"},
       {"clash_mode": "Global", "outbound": "GLOBAL"},
       {"wifi_ssid": ["hoohoomimi", "hoohoomimi_5G"], "outbound": "DIRECT"},
